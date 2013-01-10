@@ -6,23 +6,34 @@
 		{url:"backstretch/example/slideshow.html",text:"slideshow"}
 	]
     },
-    { text: 'bootstrap icon插件', isexpand: false, children: [
-		{ url: "bootstrap-font-awesome/docs/index.html", text: "index" },
-		{ url: "bootstrap-font-awesome/docs/test.html", text: "test" },
-		{ url: "bootstrap-font-awesome/docs/design.html", text: "design" } 
+    { text: 'bootstrap插件', isexpand: false, children: [
+        { isexpand: "false", text: "Font-Awesome", children: [
+                      { url: "bootstrap-font-awesome/docs/index.html", text: "index" },
+                      { url: "bootstrap-font-awesome/docs/test.html", text: "test" },
+                      { url: "bootstrap-font-awesome/docs/design.html", text: "design" } 
+             ]},
+          { url: "demos/filter/grid.htm", text: "高级自定义查询" },
+          { url: "demos/grid/search/search.htm", text: "查询 表格" }
 	]
     }, 
-	{ text: '弹窗',isexpand:false, children: [ 
-		{url:"demos/dialog/dialogAll.htm",text:"弹出框"},
-		{url:"demos/dialog/dialogTarget.htm",text:"载入目标DIV"},
-		{url:"demos/dialog/dialogUrl.htm",text:"窗口"}, 
-		{url:"demos/dialog/tip.htm",text:"右下角的提示"}, 
-		{url:"demos/dialog/window.htm",text:"可最小化"}
+	{ text: 'JQ消息插件',isexpand:false, children: [ 
+	                                            
+        {text:"noty插件", isexpand: false, children:[
+               {url:"jquery-noty/demo/index.html",text:"index"},
+               {url:"jquery-noty/demo/allLayouts.html",text:"See All Layouts"},
+               {url:"jquery-noty/demo/allTypes.html",text:"See All Types"},
+               {url:"jquery-noty/demo/usingWithButtons.html",text:"Using with Buttons"},
+               {url:"jquery-noty/demo/usingWithButtons2.html",text:"Using with Buttons2"},
+               {url:"jquery-noty/demo/usingWithModal.html",text:"Using with Modal"},
+               {url:"jquery-noty/demo/usingWithOldOptions.html",text:"Using with Old Option"},
+               {url:"jquery-noty/demo/customContainer.html",text:"Using with Custom Container"},
+               {url:"jquery-noty/demo/consumingAlert.html",text:"Consuming Alert"},
+               {url:"jquery-noty/demo/api.html",text:"Using API"}
+                                                   ]},
 	]},
-	{ text: '菜单',isexpand:false, children: [  
-		{url:"demos/menu/evenmenu.htm",text:"事件支持"},
-		{url:"demos/menu/menubar.htm",text:"菜单条/工具条"}, 
-		{url:"demos/menu/mulmenu.htm",text:"多个菜单同时存在"}
+	{ text: 'JQ选择框插件',isexpand:false, children: [  
+		{url:"jquery-chosen/example.jquery.html",text:"jquery chosen"},
+		{url:"jquery-select2/Select2 3.2.htm",text:"jquery select2"}
 	]},
 	{ text: '下拉框',isexpand:false, children: [  
 		{url:"demos/comboBox/comboBoxSelect.htm",text:"select表单"},

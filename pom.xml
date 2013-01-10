@@ -22,5 +22,8 @@
     <module>backstretch</module>
     <module>embertable</module>
     <module>bootstrap-font-awesome</module>
+    <module>jquery-noty</module>
+    <module>jquery-chosen</module>
+    <module>jquery-select2</module>
   </modules>
 </project>

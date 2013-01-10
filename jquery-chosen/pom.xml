@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.facetime.demo</groupId>
-  <artifactId>font-awesome</artifactId>
+  <artifactId>jquery-chosen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <distributionManagement>
